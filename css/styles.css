@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fef7c8;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    min-height: 900px;
+    font-family: Arial, sans-serif ;
+    letter-spacing: 0;
+    color: #343434;
+    background-color: #ffffff;
+}
+
+.inner-wrapper {
+    padding: 0 16px;
+    flex: 1 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 30px;
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    margin-top: 43px;
+    width: 600px;
+}
+
+aside {
+    margin-top: 32px;
+    width: 300px;
+}
+
+nav {
+    margin-left: 19px;
+    margin-top: 6px;
+}
+
+aside, nav {
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+}
+.heading-image {
+    display: flex;
+    align-items: center;
+}
+.blue-text {
+    color: #023875;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.heading-small-text, .main-article-text {
+    font-size: 13px;
+}
+
+.main-article-text {
+    line-height: 18px;
+}
+
+.heading-first-line, .heading-telephone, .main-article-heading-text {
+    font-size: 24px;
+}
+
+.main-article-heading-text {
+    margin-bottom: 25px;
+}
+
+.heading-telephone {
+    text-decoration: none;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.telephone-block {
+    margin-bottom: 6px;
+}
+
+.heading-first-line {
+    margin-bottom: 13px;
+}
+
+.heading-second-line {
+    font-size: 48px;
+    margin-bottom: 19px;
+}
+.aside-heading-text {
+    padding: 15px 19px 12px;
+    background-color: #023875 ;
+    font-size: 18px;
+}
+
+
+.aside-nav-text, .aside-nav-text a {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.aside-nav-text a {
+    text-transform: uppercase;
+    color: #023875;
+}
+
+.footer-text {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 14px;
+}
+.top-line, footer {
+
+    width: auto;
+    height: 42px;
+    background-color: #023875 ;
+    border-radius: 4px;
+}
+
+
