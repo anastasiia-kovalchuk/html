@@ -14,3 +14,53 @@
 body {
     font-family: Open Sans, sans-serif ;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner_wrapper {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .header {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .top_header_part {
+     display: flex;
+     flex-direction: row ;
+ }
+
+ .center_header_part {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .header_menu {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .news_container {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .footer {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .top_footer {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .center_footer {
+     display: flex;
+     flex-direction: row;
+ }
