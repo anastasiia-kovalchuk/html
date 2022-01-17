@@ -30,12 +30,12 @@ body {
      flex-direction: column;
  }
 
- .top_header_part {
+ .header_top {
      display: flex;
      flex-direction: row ;
  }
 
- .center_header_part {
+ .header_center {
      display: flex;
      flex-direction: row;
  }
@@ -55,12 +55,12 @@ body {
      flex-direction: column;
  }
 
- .top_footer {
+ .footer_top {
      display: flex;
      flex-direction: row;
  }
 
- .center_footer {
+ .footer_center {
      display: flex;
      flex-direction: row;
  }
