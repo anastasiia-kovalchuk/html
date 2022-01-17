@@ -4,6 +4,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
@@ -12,55 +13,106 @@
 }
 
 body {
-    font-family: Open Sans, sans-serif ;
+    font-family: Open Sans, sans-serif;
+    background-color: darkgrey;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
+    font-family: Open Sans, sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: left;
+    color: black;
 }
 
 .inner_wrapper {
     display: flex;
     flex-direction: row;
- }
+}
 
- .header {
-     display: flex;
-     flex-direction: column;
- }
+.header {
+    display: flex;
+    flex-direction: column;
+}
 
- .header_top {
-     display: flex;
-     flex-direction: row ;
- }
+.header_top {
+    display: flex;
+    flex-direction: row;
+}
 
- .header_center {
-     display: flex;
-     flex-direction: row;
- }
+.header_center {
+    display: flex;
+    flex-direction: row;
+}
 
- .header_menu {
-     display: flex;
-     flex-direction: row;
- }
+.header_menu {
+    display: flex;
+    flex-direction: row;
+}
 
- .news_container {
-     display: flex;
-     flex-direction: row;
- }
+.news_container {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
 
- .footer {
-     display: flex;
-     flex-direction: column;
- }
+.footer {
+    display: flex;
+    flex-direction: column;
+}
 
- .footer_top {
-     display: flex;
-     flex-direction: row;
- }
+.footer_top {
+    display: flex;
+    flex-direction: row;
+}
 
- .footer_center {
-     display: flex;
-     flex-direction: row;
- }
+.footer_center {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-size: 16px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-white {
+color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+tbody, td a {
+    color: #0f680e;
+}
+
+a[href^="tel:"] {
+    font-size: 20px;
+}
+
+.text-black {
+    color: black;
+}
+
+.skype-link {
+    font-style: italic;
+    color: #1200ff;
+}
+
+.header_menu, h1, h2, span {
+    font-weight: bold;
+}
+
+figcaption>span {
+    font-size: 14px;
+    color: black;
+}
