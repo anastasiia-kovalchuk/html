@@ -89,7 +89,12 @@ body {
 }
 
 .header_menu>li:hover{
-    opacity: 0.5;
+    background: linear-gradient(#4cda67, #34a24a)
+}
+
+.header_menu>li>a {
+    font-size: 18px;
+    color: white;
 }
 
 .news_container {
@@ -236,3 +241,4 @@ h1 {
 .header_buttons button:first-child {
     margin-bottom: 11px;
 }
+
