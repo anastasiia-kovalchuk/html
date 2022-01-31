@@ -44,9 +44,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1280px;
     height: 54px;
     background-color: #37a14c;
+    margin-bottom: 11px;
 }
 
 .header_icons {
@@ -60,11 +60,23 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
 }
 
 .header_menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 1280px;
+    height: 45px;
+    list-style: none;
+}
+
+.header_nav {
+    width: 100%;
+    background-color: #37a14c;
 }
 
 .news_container {
@@ -184,6 +196,30 @@ h1 {
     margin-right: 17px;
 }
 
+.header_contacts td {
+    white-space: nowrap;
+}
+
 .header_contacts_title {
-    margin-right: 8px;
+    display: inline-block;
+    width: 83px;
+    margin-right: 5px;
+}
+
+.header_buttons {
+
+}
+
+.header_buttons button {
+    padding: 0;
+    border: none;
+    width: 136px;
+    height: 37px;
+    background-color: #ffc00f;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px -1px black;
+}
+
+.header_buttons button:first-child {
+    margin-bottom: 11px;
 }
