@@ -14,7 +14,7 @@
 
 body {
     font-family: Open Sans, sans-serif;
-    background-color: darkgrey;
+    /*background-color: darkgrey;*/
 }
 
 .wrapper {
@@ -84,8 +84,16 @@ body {
     justify-content: center;
     width: 194px;
     height: 100%;
-    border-right: 1px solid #ffffff24;
-    border-left: 1px solid #00000047;
+    border-right: 2px;
+    border-style: ridge;
+    border-color: #57e974;
+    /*border-left: 1px solid #00000047;*/
+}
+
+.header_menu>li:first-child{
+    border-left: 2px;
+    border-style: ridge;
+    border-color: #57e974;
 }
 
 .header_menu>li:hover{
@@ -93,7 +101,8 @@ body {
 }
 
 .header_menu>li>a {
-    font-size: 18px;
+    padding: 17px 0 10px;
+    font-size: 16px;
     color: white;
 }
 
@@ -218,10 +227,27 @@ h1 {
     white-space: nowrap;
 }
 
+table{
+    /*height: 100px;*/
+    /*border-spacing: 5px 4px;*/
+}
+
 .header_contacts_title {
     display: inline-block;
     width: 83px;
     margin-right: 5px;
+}
+
+.header_admin_numbers:after {
+    height: 4px;
+    display: table-row;
+    content: ''
+}
+
+.header_podonatu_numbers:after {
+    height: 7px;
+    display: table-row;
+    content: ''
 }
 
 .header_buttons {
