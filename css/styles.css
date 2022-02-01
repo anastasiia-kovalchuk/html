@@ -67,6 +67,7 @@ body {
 .header_nav {
     width: auto;
     background: linear-gradient(#51c066, #329546);
+    margin-bottom: 20px;
 }
 
 .header_menu {
@@ -75,7 +76,6 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 45px;
-    list-style: none;
 }
 
 .header_menu>li {
@@ -238,6 +238,11 @@ table{
     margin-right: 5px;
 }
 
+.header_skype {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header_admin_numbers:after {
     height: 4px;
     display: table-row;
@@ -268,3 +273,11 @@ table{
     margin-bottom: 11px;
 }
 
+aside menu {
+    width: 231px;
+    list-style: none;
+}
+
+/*.aside_nav_red {*/
+/*    padding: ;*/
+/*}*/
