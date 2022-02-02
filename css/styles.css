@@ -129,6 +129,7 @@ body {
 .footer_center {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .container {
@@ -313,3 +314,42 @@ span {
     display: inline-block;
     margin-bottom: 1px;
 }
+
+.footer_top_text {
+    padding: 20px 0 53px;
+}
+
+.footer_contacts_container {
+    padding: 14px 0 7px;
+}
+
+.footer_contacts_title {
+    display: inline-block;
+    width: 83px;
+    margin-right: 8px;
+}
+
+.footer_admin_numbers:before {
+    height: 14px;
+    display: table-row;
+    content: '';
+}
+
+.footer_admin_numbers:after {
+    height: 4px;
+    display: table-row;
+    content: '';
+}
+
+
+
+/*.header_contacts_title {*/
+/*    display: inline-block;*/
+/*    width: 83px;*/
+/*    margin-right: 5px;*/
+/*}*/
+/*.header_admin_numbers:after {*/
+/*    height: 4px;*/
+/*    display: table-row;*/
+/*    content: ''*/
+/*}*/
