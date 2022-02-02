@@ -122,6 +122,8 @@ body {
 .footer_top {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(#fec50d, #fec60c, #f0b006);
 }
 
 .footer_center {
@@ -299,7 +301,7 @@ h2 {
 }
 
 figcaption {
-    height: 88px;
+    /*height: 88px;*/
     width: 223px;
     padding: 14px 3px 10px 6px;
     color: white;
