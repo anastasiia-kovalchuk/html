@@ -132,10 +132,11 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 96px;
-    margin-bottom: 22px;
     background: linear-gradient(#44ba5b,#3d9b50);
 }
-
+.copyright {
+    padding: 22px 150px;
+}
 .container {
     padding: 0 150px;
 }
