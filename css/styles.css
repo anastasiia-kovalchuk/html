@@ -109,7 +109,9 @@ body {
 .news_container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-size: 14px;
+    margin-bottom: 31px;
 }
 
 .footer {
@@ -146,10 +148,6 @@ a {
 }
 
 .text-white {
-    color: white;
-}
-
-figcaption {
     color: white;
 }
 
@@ -292,4 +290,24 @@ aside menu {
     padding: 9px 0 2px 18px;
 }
 
+.section_main_p {
+    margin: 19px 0 58px;
+}
 
+h2 {
+    margin-bottom: 15px;
+}
+
+figcaption {
+    height: 88px;
+    width: 223px;
+    padding: 14px 3px 10px 6px;
+    color: white;
+    background: linear-gradient(#309444, #45bc5c);
+    border-bottom: 3px ridge #45bc5c;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 1px;
+}
