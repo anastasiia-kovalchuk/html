@@ -129,7 +129,11 @@ body {
 .footer_center {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    height: 96px;
+    margin-bottom: 22px;
+    background: linear-gradient(#44ba5b,#3d9b50);
 }
 
 .container {
